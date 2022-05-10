@@ -11,10 +11,14 @@
 
     String result = "未実施";
 
+    GameApp i = new GameApp("なにか");
+
     if (name != null && !name.isEmpty()) {
-    	// このif分の中で、GameAppクラスのstartメソッドを呼び出し、
-    	// 戻り値をresultに代入してください。
-    }
+
+      result = i.start(name);
+      // このif分の中で、GameAppクラスのstartメソッドを呼び出し、
+      // 戻り値をresultに代入してください。
+}
 %>
 <!DOCTYPE html>
 <html>
